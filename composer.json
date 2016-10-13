@@ -1,5 +1,5 @@
 {
-  "name": "sergey-s-moiseev/m3u-parser",
+  "name": "sergey-s-moiseev/m3u-playlist-parser",
   "description": "m3u playlist parser (Gemorroj fork)",
   "keywords": ["m3u", "playlist"],
   "type": "library",
