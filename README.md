@@ -1,7 +1,5 @@
 # Работа с m3u файлами.
 
-[![Build Status](https://secure.travis-ci.org/Gemorroj/M3uParser.png?branch=master)](https://travis-ci.org/Gemorroj/M3uParser)
-
 
 ### Требования:
 
@@ -15,14 +13,14 @@
 ```json
 {
     "require": {
-        "gemorroj/m3u-parser": "dev-master"
+        "sergey-s-moiseev/m3u-playlist-parser": "dev-master"
     }
 }
 ```
 - Установите проект:
 
 ```bash
-$ php composer.phar update gemorroj/m3u-parser
+$ php composer.phar update sergey-s-moiseev/m3u-playlist-parser
 ```
 
 
