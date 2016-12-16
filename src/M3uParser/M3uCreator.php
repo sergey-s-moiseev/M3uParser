@@ -31,8 +31,6 @@ class M3uCreator
             $content = $content."#EXTINF:-1, tvg-name=\"". $_channel['name']."\""." tvg-logo=\"". $_channel['tvg-logo']."\""." group-title=\"". $_channel['group-title']."\""." tvg-shift=\"". $_channel['tvg-shift']."\", ".$_channel['name']."\n".$_channel['url']."\n";
         }
         file_put_contents($file, $content);
-        $path  = sys_get_temp_dir()."/";
-        rename($file, $path.$file);
-        return ['file'=>$file, 'path' => $path.$file];
+        return [$file];
     }
 }
